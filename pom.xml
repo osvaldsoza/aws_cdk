@@ -59,12 +59,13 @@
             <version>2.17.212</version>
         </dependency>
 
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/software.amazon.awscdk/ecs-patterns &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>software.amazon.awscdk</groupId>-->
-<!--            <artifactId>ecs-patterns</artifactId>-->
-<!--            <version>1.156.1</version>-->
-<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/software.amazon.awscdk/ecs-patterns -->
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>ecs-patterns</artifactId>
+            <version>0.33.0</version>
+        </dependency>
+
 
         <dependency>
             <groupId>software.constructs</groupId>
