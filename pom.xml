@@ -45,6 +45,27 @@
             <version>${cdk.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/ec2 -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>ec2</artifactId>
+            <version>2.17.209</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/ecs -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>ecs</artifactId>
+            <version>2.17.212</version>
+        </dependency>
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/software.amazon.awscdk/ecs-patterns &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>software.amazon.awscdk</groupId>-->
+<!--            <artifactId>ecs-patterns</artifactId>-->
+<!--            <version>1.156.1</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>software.constructs</groupId>
             <artifactId>constructs</artifactId>
